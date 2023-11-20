@@ -1,0 +1,21 @@
+.main-container{
+    width: 100%;
+    box-shadow: .3px .3px 2px #5c585891;
+    background-color: #ffffff;
+}
+
+.headerContainer{
+    width: 90%;
+}
+
+
+
+
+
+.darkMode{
+    background-color: #2B3844;
+}
+
+p{
+    margin-bottom: 0 !important;
+}

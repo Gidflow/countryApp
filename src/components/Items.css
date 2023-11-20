@@ -1,0 +1,58 @@
+.itemContainer{
+    width: 100% ;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    margin: 3rem 0;
+    gap: 3rem;
+    
+}
+
+.countryCard{
+   
+    background-color:#ffffff;
+    width: 100%;
+    border-radius: .5rem;
+    box-shadow: .1px .1px     3px #252424a6;
+
+}
+
+.description .name{
+    margin-bottom: 1.5rem;
+}
+.description{
+    padding: 2rem 2rem 4rem 2rem;
+    height: 50%;
+}
+.countryCard img{
+    width: 100%;
+   height: 100%;
+    border-radius: .5rem .5rem 0 0;
+}
+
+.description p{
+  margin-top: .5rem;
+}
+
+.description span{
+    font-weight: 700;
+}
+
+.darkMode{
+    background-color: #2B3844;
+}
+
+.imageDescription{
+    height: 50%;
+}
+@media (min-width:900px){
+    .itemContainer{
+        width: 100% ;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        margin: 0;
+        gap: 3rem;
+        
+    }
+}

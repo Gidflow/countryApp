@@ -1,0 +1,77 @@
+.inputContainer{
+    width: 100%;
+    margin:1rem 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+form{
+    background-color: #fff;
+    width: 100%;
+    display: flex;
+    padding: .6rem 1.7rem;
+    align-items: center;
+    gap: 1rem;
+    border-radius: .3rem;
+    box-shadow: .1px .2px 0px .3px #3a3737;
+    
+}
+
+input{
+    background-color: transparent;
+    border: 0;
+    display: block;
+   
+}
+
+input:focus{
+    outline: none;
+    
+}
+
+/* .selectControl{
+    width: 60%;
+    background-color: #fff;
+    padding-right: .3rem;
+   box-shadow: .4px .4px .4px black;
+}
+
+select{
+    width: 79%;
+    outline: none;
+    border: 0;
+    background-color: transparent;
+    padding: .6rem 1rem;
+    display: block;
+   
+}
+
+ option{
+   
+    width: unset;
+} */
+
+.darkMode{
+    background-color: #2B3844;
+}
+
+.darkMode::placeholder{
+    color:#fff !important;
+}
+
+
+@media (min-width:900px){
+    .inputContainer{
+        width: 100%;
+        margin:1.5rem 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 1.5rem;
+    }
+
+    form{
+        width: 40%;
+    }
+}

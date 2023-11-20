@@ -1,0 +1,22 @@
+.selectControl{
+    width: 60%;
+    border-radius: 0.6rem;
+    
+    
+}
+
+
+
+.darkMode{
+    background-color: #2B3844;
+    
+}
+
+@media (min-width:900px){
+    .selectControl{
+        width: 25%;
+        border-radius: 0.6rem;
+        
+        
+    }
+}
