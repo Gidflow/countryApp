@@ -75,7 +75,7 @@ const {theme} = useGlobalTheme();
     singleValue: (defaultStyles, state) => ({ ...defaultStyles, color:theme?"#fff":"black" }),
   };
 
-  const selectedOption = "Filter Country";
+  const selectedOption = "Filter Region";
   return (
     <div className={`${theme && "darkMode"} selectControl`}>
          <Select    styles={customStyles} options={options} placeholder={selectedOption} value={region} onChange={handleChange}/>
